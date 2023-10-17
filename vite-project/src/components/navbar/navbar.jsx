@@ -15,6 +15,7 @@ const navbar = () => {
             <Link to="/Celulares">Celulares</Link>
             <Link to="/Consolas">Consolas</Link>
             <Link to="/Electrodomesticos">Electrodomésticos</Link>
+            <Link to="/Carrito">Carrito</Link>
         </nav>      
     </div>
   )
