@@ -4,7 +4,7 @@ import './App.css'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
 // components 
-import Header from './components/header/header'
+import NavBar from './components/navbar/navbar'
 
 // pages 
 import Home from './pages/home'
@@ -19,20 +19,15 @@ const App = () => {
     <Router>
     <div className='App'>
       
-      <div>
-        <Header/>
-        <nav>
-          <h1>Nabvar</h1>
-        </nav>
-      </div>
+      <NavBar />
 
-    <Routes>
-      <Route path='/' element={<Home />} />
-      <Route path='/Celulares' element={<Celulares />} />
-      <Route path='/Electrodomesticos' element={<Electrodomesticos />} />
-      <Route path='/Consolas' element={<Consolas/>} />
-      <Route path='/Televisiones' element={<Televisiones />} />
-    </Routes>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/Celulares' element={<Celulares />} />
+        <Route path='/Electrodomesticos' element={<Electrodomesticos />} />
+        <Route path='/Consolas' element={<Consolas/>} />
+        <Route path='/Televisiones' element={<Televisiones />} />
+      </Routes>
 
 
 
