@@ -2,7 +2,9 @@ import React from 'react'
 
 const televisiones= () => {
   return (
-    <div>televisiones</div>
+    <div>
+      <h1>televisiones</h1>
+    </div>
   )
 }
 

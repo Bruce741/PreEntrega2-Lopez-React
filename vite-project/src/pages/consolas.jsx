@@ -2,7 +2,9 @@ import React from 'react'
 
 const consolas = () => {
   return (
-    <div>consolas</div>
+    <div>
+      <h1>consolas</h1>
+    </div>
   )
 }
 

@@ -2,7 +2,9 @@ import React from 'react'
 
 const electrodomesticos = () => {
   return (
-    <div>electrodomesticos</div>
+    <div>
+      <h1>electrodomesticos</h1>
+    </div>
   )
 }
 
