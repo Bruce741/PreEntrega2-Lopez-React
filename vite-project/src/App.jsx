@@ -22,6 +22,7 @@ const App = () => {
     <div className='App'>
       <Header/>      
       <NavBar />
+      
 
       <Routes>
         <Route path='/' element={<Home />} />

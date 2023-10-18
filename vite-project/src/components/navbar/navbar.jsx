@@ -9,7 +9,7 @@ import {Link} from 'react-router-dom'
 const navbar = () => {
   return (
     <div>
-        <nav class="navbar">
+        <nav className="navbar">
             <Link to="/">Home</Link>
             <Link to="/Televisiones">Televisiones</Link>
             <Link to="/Celulares">Celulares</Link>

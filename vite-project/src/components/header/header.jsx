@@ -6,12 +6,15 @@ import {useNavigate} from 'react-router-dom'
 // CSS
 import './header.css' 
 
+// IMG
+import imagen from './logo.png'
+
 const header = () => {
     const navigate = useNavigate();
   return (
     <div className='header'>
 
-        <img src='./woolmarkimagelogo-1024x576.png' onClick={ () => navigate('/')}/>
+      <img onClick={ () => navigate('/')} src={imagen} alt="Mi Imagen" />
 
     </div>
   )

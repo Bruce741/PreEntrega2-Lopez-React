@@ -1,12 +1,13 @@
 import React from 'react'
 
-// React-Router-Dom
-
+// Componentes 
+import Listproducts from '../components/listproduct/listproducts'
 
 const home = () => {
   return (
     <div>
       <h1>Home</h1>
+      <Listproducts/>
     </div>
   )
 }
