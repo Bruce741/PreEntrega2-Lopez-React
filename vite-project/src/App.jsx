@@ -14,16 +14,16 @@ import Electrodomesticos from './pages/Electrodomesticos'
 import Consolas from './pages/consolas'
 import Televisiones from './pages/televisiones'
 import Carrito from './pages/carrito'
+import DetailPage from './pages/detailPage'
 
 const App = () => {
 
   return (
     <Router>
     <div className='App'>
+
       <Header/>      
       <NavBar />
-      
-
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/Celulares' element={<Celulares />} />
@@ -31,6 +31,7 @@ const App = () => {
         <Route path='/Consolas' element={<Consolas/>} />
         <Route path='/Televisiones' element={<Televisiones />} />
         <Route path='/Carrito' element={<Carrito/>} />
+        <Route path='/detailPage/:id' element={<DetailPage/>} />
       </Routes>
 
 
